@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / HuggingFace Model Weights & Cache
+*.pt
+*.bin
+*.onnx
+*.safetensors
+.cache/
+huggingface/
+
+# Large Datasets & Output Logs
+*.csv
+*.parquet
+*.jsonl
+*.log
+
+# OS / Editor Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
